@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+}
+#navbar {
+  background: violet;
+}
+ul {
+  text-decoration: none;
+}
+.main {
+  background: yellowgreen;
+}
+#welcome-section {
+  background: wheat;
+}
+#welcome-section h1 {
+  font-size: 64px;
+}
+#welcome-section h2 {
+  font-size: 40px;
+}
+.project-tile {
+  background: gray;
+}
+.project-tile a {
+  background: gray;
+}
+.project-tile img {
+  background: gray;
+}
+.project-tile h3 {
+  background: honeydew;
+}
+#profile-link {
+  background: indianred;
+}
+#projects button {
+  background: indigo;
+}
+#contact {
+  background: lawngreen;
+}
+#contact h1 {
+  background: aqua;
+}
+#contact h3 {
+  background: peru;
+}
+#contact a {
+  background: darkgoldenrod;
+}
+#contact button {
+  background: teal;
+}
+footer {
+  background: darkred;
+}
+footer a {
+  color: deeppink;
+}
