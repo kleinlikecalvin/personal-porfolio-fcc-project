@@ -4,6 +4,12 @@ body {
 #navbar {
   background: violet;
 }
+#glasses-icon {
+  margin: 0 auto;
+  padding: 0;
+  height: 40px;
+  width: 45px;
+}
 ul {
   text-decoration: none;
 }
@@ -15,6 +21,8 @@ ul {
 }
 #welcome-section h1 {
   background-image: url("https://i.ibb.co/nzSMHrT/Hawaii-Landing.jpg");
+  background-size: cover%;
+  background-repeat: no-repeat;
   font-family: "Rowdies", cursive;
   font-size: 64px;
 }
