@@ -21,7 +21,7 @@ ul {
 }
 #welcome-section h1 {
   background-image: url("https://i.ibb.co/nzSMHrT/Hawaii-Landing.jpg");
-  background-size: cover%;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: "Rowdies", cursive;
   font-size: 64px;
@@ -45,7 +45,10 @@ ul {
   background: indianred;
 }
 #projects button {
-  background: indigo;
+  border: 2px solid indigo;
+  color: indigo;
+  background: transparent;
+  border-radius: 35% 0 35% 0;
 }
 #contact {
   background: lawngreen;
@@ -60,7 +63,10 @@ ul {
   background: darkgoldenrod;
 }
 #contact button {
-  background: teal;
+  border: 2px solid indigo;
+  color: indigo;
+  background: transparent;
+  border-radius: 35% 0 35% 0;
 }
 footer {
   background: darkred;
