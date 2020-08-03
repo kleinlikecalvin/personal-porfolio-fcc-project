@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  color: #212121;
 }
 #navbar {
   background: violet;
@@ -26,34 +27,64 @@ body {
   background-repeat: no-repeat;
 }
 #welcome-section h1 {
+  margin: 10px;
+  max-width: 800px;
   font-family: "Rowdies", cursive;
   font-size: 64px;
+  background: #fff;
+  border-radius: 10px;
+  opacity: 80%;
 }
 #welcome-section h2 {
+  margin: 10px;
+  max-width: 800px;
   font-size: 40px;
+  background: #fff;
+  border-radius: 10px;
+  opacity: 90%;
 }
 #projects-section {
-  width: 100%;
+  position: relative;
   height: 100vh;
+  width: 100%;
+  background: #2b90a3;
+  float: left;
+  margin-top: 5%;
   margin-bottom: 5%;
+  left: 0;
+  border-bottom: 100px solid #fff;
+  border-right: 100px solid #2b90a3;
+  border-top: 100px solid #fff;
+}
+.projex {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background: #2b90a3;
+  float: right;
+  margin-top: -100px;
+  margin-bottom: 5%;
+  margin-right: -100px;
+  right: 0;
+  border-bottom: 100px solid #2b90a3;
+  border-right: 100px solid #fff;
+  border-top: 100px solid #fff;
 }
 #projects-section h1 {
   padding: 10px;
 }
 .project-tile {
-  border: 2px solid gray;
+  border: 2px solid #212121;
   margin: 10px;
   border-radius: 4px;
-  background: gray;
+  background: #212121;
 }
 .project-tile a {
   text-decoration: none;
+  color: #cf3f0c;
 }
 .project-tile a:hover {
   color: orange;
-}
-.project-tile label {
-  background: gray;
 }
 .project-tile img {
   border-radius: 4px;
@@ -62,17 +93,37 @@ body {
   background: gray;
 }
 #projects-section button {
-  border: 2px solid indigo;
+  border: 3px solid indigo;
   color: indigo;
   background: transparent;
   border-radius: 35% 0 35% 0;
 }
 #contact-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #2b90a3;
+  float: left;
   margin-top: 5%;
   margin-bottom: 5%;
+  left: 0;
+  border-bottom: 100px solid #fff;
+  border-left: 100px solid #2b90a3;
+  border-top: 100px solid #fff;
+}
+.contax {
+  position: relative;
+  height: 100px;
   width: 100%;
-  height: 100vh;
-  background: lawngreen;
+  background: #2b90a3;
+  float: left;
+  margin-top: -100px;
+  margin-bottom: 5%;
+  margin-left: -100px;
+  left: 0;
+  border-bottom: 100px solid #2b90a3;
+  border-left: 100px solid #fff;
+  border-top: 100px solid #fff;
 }
 #contact-section h1 {
   background: lawngreen;
@@ -81,14 +132,19 @@ body {
   background: lawngreen;
 }
 #contact-section button {
-  border: 2px solid indigo;
+  border: 3px solid indigo;
   color: indigo;
   background: transparent;
   border-radius: 35% 0 35% 0;
 }
 footer {
-  background: darkred;
+  padding: 5%;
+  background: transparent;
 }
 footer a {
-  color: deeppink;
+  color: #cf3f0c;
+}
+footer a:hover {
+  color: #173166;
+  text-decoration: none;
 }
