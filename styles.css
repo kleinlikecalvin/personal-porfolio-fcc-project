@@ -36,6 +36,8 @@ ul {
   background: gray;
 }
 .project-tile img {
+  height: 100%;
+  width: 100%;
   background: gray;
 }
 .project-tile h3 {
