@@ -140,8 +140,9 @@ button {
 }
 footer {
   padding: 5%;
-  font-size: 30px;
+  font-size: 20px;
   background: transparent;
+  font-family: "VT323", monospace !important;
 }
 footer a {
   color: #cf3f0c;
