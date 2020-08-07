@@ -53,7 +53,7 @@ button {
 }
 #projects-section {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: lime;
   float: left;
@@ -69,7 +69,6 @@ button {
   position: relative;
   height: 100px;
   width: 100%;
-
   float: right;
   margin-top: -100px;
   margin-bottom: 5%;
@@ -100,7 +99,7 @@ button {
 }
 #contact-section {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: #212121;
   float: left;
@@ -130,12 +129,14 @@ button {
 }
 #contact-section p {
   background: lime;
-  height: 397px;
   font-size: 30px;
+  height: 230px;
+  border-radius: 0 0 10px 10px;
 }
 .links {
   background: lime;
-  height: 397px;
+  height: 230px;
+  border-radius: 0 0 10px 10px;
 }
 footer {
   padding: 5%;
