@@ -21,10 +21,10 @@ h1 {
 }
 button {
   font-family: "VT323", monospace !important;
-  font-size: 20px;
+  font-size: 30px;
   margin: 10px;
   padding: 5px;
-  border: 3px solid #212121;
+  border: 5px solid #212121;
   color: #212121;
   background: transparent;
   border-radius: 35% 0 35% 0;
@@ -145,9 +145,9 @@ footer {
   font-family: "VT323", monospace !important;
 }
 footer a {
-  color: #cf3f0c;
+  color: lime;
 }
 footer a:hover {
-  color: #173166;
+  color: #2b90a3;
   text-decoration: none;
 }
