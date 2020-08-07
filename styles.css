@@ -113,7 +113,7 @@ button {
 }
 .contax {
   position: relative;
-  height: 100px;
+  height: 100%;
   width: 100%;
   float: left;
   margin-top: -100px;
@@ -133,7 +133,7 @@ button {
   height: 230px;
   border-radius: 0 0 10px 10px;
 }
-.links {
+#contact-section .links {
   background: lime;
   height: 230px;
   border-radius: 0 0 10px 10px;
