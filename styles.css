@@ -55,13 +55,13 @@ button {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: #2b90a3;
+  background: lime;
   float: left;
   margin-top: 5%;
   margin-bottom: 5%;
   left: 0;
   border-bottom: 100px solid #f6f6f6;
-  border-right: 100px solid #2b90a3;
+  border-right: 100px solid lime;
   border-top: 100px solid #f6f6f6;
   font-family: "VT323", monospace;
 }
@@ -69,13 +69,13 @@ button {
   position: relative;
   height: 100px;
   width: 100%;
-  background: #2b90a3;
+  background: lime;
   float: right;
   margin-top: -100px;
   margin-bottom: 5%;
   margin-right: -100px;
   right: 0;
-  border-bottom: 100px solid #2b90a3;
+  border-bottom: 100px solid lime;
   border-right: 100px solid #f6f6f6;
   border-top: 100px solid #f6f6f6;
 }
@@ -102,13 +102,13 @@ button {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: #2b90a3;
+  background: #212121;
   float: left;
   margin-top: 5%;
   margin-bottom: 5%;
   left: 0;
   border-bottom: 100px solid #f6f6f6;
-  border-left: 100px solid #2b90a3;
+  border-left: 100px solid #212121;
   border-top: 100px solid #f6f6f6;
   font-family: "VT323", monospace;
 }
@@ -116,13 +116,13 @@ button {
   position: relative;
   height: 100px;
   width: 100%;
-  background: #2b90a3;
+  background: #212121;
   float: left;
   margin-top: -100px;
   margin-bottom: 5%;
   margin-left: -100px;
   left: 0;
-  border-bottom: 100px solid #2b90a3;
+  border-bottom: 100px solid #212121;
   border-left: 100px solid #f6f6f6;
   border-top: 100px solid #f6f6f6;
 }
@@ -148,6 +148,6 @@ footer a {
   color: lime;
 }
 footer a:hover {
-  color: #2b90a3;
+  color: #212121;
   text-decoration: none;
 }
