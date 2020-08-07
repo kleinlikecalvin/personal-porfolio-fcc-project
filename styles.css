@@ -15,6 +15,10 @@ body {
   height: 40px;
   width: 55px;
 }
+h1 {
+  font-family: "Bungee Shade", cursive;
+  padding: 10px;
+}
 #welcome-section {
   background: #212121;
   background-size: cover;
@@ -35,6 +39,7 @@ body {
 }
 .welcome h1 {
   font-size: 20px;
+  font-family: "VT323", monospace;
 }
 .welcome h2 {
   font-size: 40px;
@@ -65,9 +70,6 @@ body {
   border-bottom: 100px solid #2b90a3;
   border-right: 100px solid #f6f6f6;
   border-top: 100px solid #f6f6f6;
-}
-#projects-section h1 {
-  padding: 10px;
 }
 .project-tile {
   border: 2px solid #212121;
@@ -125,6 +127,7 @@ body {
   background: lime;
 }
 #contact-section button {
+  font-family: "VT323", monospace !important;
   border: 3px solid indigo;
   color: indigo;
   background: transparent;
