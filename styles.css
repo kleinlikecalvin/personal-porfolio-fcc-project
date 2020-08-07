@@ -69,7 +69,7 @@ button {
   position: relative;
   height: 100px;
   width: 100%;
-  background: lime;
+
   float: right;
   margin-top: -100px;
   margin-bottom: 5%;
@@ -116,7 +116,6 @@ button {
   position: relative;
   height: 100px;
   width: 100%;
-  background: #212121;
   float: left;
   margin-top: -100px;
   margin-bottom: 5%;
