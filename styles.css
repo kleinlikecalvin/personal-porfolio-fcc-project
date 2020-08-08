@@ -58,8 +58,15 @@ button:hover {
   font-size: 40px;
 }
 #projects-section {
+  background: lime;
   height: 100vh;
-  padding-top: 7%;
+  padding-top: 10%;
+}
+#projects-section h1 {
+  font-size: 60px;
+  border-bottom: 2px solid #212121;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .project-tile {
   margin: 10px;
@@ -95,24 +102,34 @@ button:hover {
 }
 #contact-section {
   font-family: "VT323", monospace;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 #about-me {
-  max-width: 500px;
   background: lime;
-  box-shadow: -5px 5px 5px 5px #212121;
+  max-width: 800px;
+  margin-left: 40%;
+  margin-bottom: 5%;
   border-radius: 10px;
+  box-shadow: -30px 30px 0 3px #212121;
 }
-#contact-section p {
+#about-me h1 {
+  border-bottom: 2px solid #212121;
+}
+#about-me p {
   font-size: 30px;
 }
-
-#contact-section .links {
+#my-links {
   background: lime;
-  border-radius: 10px 10px;
+  border-radius: 10px;
+  margin-left: 10%;
+  box-shadow: 30px 30px 0 3px #212121;
+}
+#my-links h1 {
+  border-bottom: 2px solid #212121;
 }
 footer {
-  padding-top: 5%;
+  padding-top: 7%;
+  padding-bottom: 5%;
   font-size: 20px;
   background: transparent;
   font-family: "VT323", monospace !important;
