@@ -97,25 +97,22 @@ button:hover {
   font-family: "VT323", monospace;
   padding-top: 7%;
 }
-#contact-section h1 {
-  box-shadow: 20px 20px 5px 20px #212121;
-  border-radius: 10px;
+#about-me {
+  max-width: 500px;
   background: lime;
+  box-shadow: -5px 5px 5px 5px #212121;
+  border-radius: 10px;
 }
 #contact-section p {
-  box-shadow: 20px 20px 0 20px #212121;
-  background: lime;
   font-size: 30px;
-  height: 230px;
-  border-radius: 10px;
 }
+
 #contact-section .links {
   background: lime;
-  height: 230px;
   border-radius: 10px 10px;
 }
 footer {
-  padding: 5%;
+  padding-top: 5%;
   font-size: 20px;
   background: transparent;
   font-family: "VT323", monospace !important;
