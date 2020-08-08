@@ -82,7 +82,7 @@ button:hover {
   background: #f6f6f6;
 }
 .project-tile label {
-  font-family: "Montserrat", sans-serif;
+  font-family: "VT323", monospace;
   background: #212121;
   width: 400px;
   margin-left: -2px;
