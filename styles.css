@@ -2,7 +2,6 @@ body {
   background: #f6f6f6;
   text-align: center;
   color: #212121;
-  font-family: "Bungee Shade", cursive;
 }
 #navbar {
   background: #f6f6f6 !important;
@@ -18,6 +17,7 @@ body {
 h1 {
   font-family: "Bungee Shade", cursive;
   padding: 10px;
+  font-size: 50px;
 }
 button {
   font-family: "VT323", monospace !important;
@@ -26,7 +26,13 @@ button {
   padding: 5px;
   border: 5px solid #212121;
   color: #212121;
-  background: transparent;
+  background: lime;
+  border-radius: 35% 0 35% 0;
+}
+button:hover {
+  color: lime;
+  border: 5px solid #212121;
+  background: #212121;
   border-radius: 35% 0 35% 0;
 }
 #welcome-section {
@@ -52,41 +58,19 @@ button {
   font-size: 40px;
 }
 #projects-section {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: lime;
-  float: left;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  left: 0;
-  border-bottom: 100px solid #f6f6f6;
-  border-right: 100px solid lime;
-  border-top: 100px solid #f6f6f6;
-  font-family: "VT323", monospace;
-}
-.projex {
-  position: relative;
-  height: 100px;
-  width: 100%;
-  float: right;
-  margin-top: -100px;
-  margin-bottom: 5%;
-  margin-right: -100px;
-  right: 0;
-  border-bottom: 100px solid lime;
-  border-right: 100px solid #f6f6f6;
-  border-top: 100px solid #f6f6f6;
+  height: 100vh;
+  padding-top: 7%;
 }
 .project-tile {
-  border: 2px solid #212121;
   margin: 10px;
+  height: 250px;
+  width: 400px;
+  border: 2px solid #212121;
   border-radius: 4px;
-  background: #212121;
 }
 .project-tile a {
   text-decoration: none;
-  color: #cf3f0c;
+  color: lime;
 }
 .project-tile a:hover {
   color: orange;
@@ -97,46 +81,38 @@ button {
   width: 100%;
   background: #f6f6f6;
 }
-#contact-section {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+.project-tile label {
+  font-family: "Montserrat", sans-serif;
   background: #212121;
-  float: left;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  left: 0;
-  border-bottom: 100px solid #f6f6f6;
-  border-left: 100px solid #212121;
-  border-top: 100px solid #f6f6f6;
-  font-family: "VT323", monospace;
+  width: 400px;
+  margin-left: -2px;
+  border: 2px solid #212121;
+  border-radius: 0 0 10px 10px;
+  font-size: 20px;
 }
-.contax {
-  position: relative;
-  height: 100px;
-  width: 100%;
-  float: left;
-  margin-top: -100px;
-  margin-bottom: 5%;
-  margin-left: -100px;
-  left: 0;
-  border-bottom: 100px solid #212121;
-  border-left: 100px solid #f6f6f6;
-  border-top: 100px solid #f6f6f6;
+#projects-section button {
+  margin-top: 5%;
+}
+#contact-section {
+  font-family: "VT323", monospace;
+  padding-top: 7%;
 }
 #contact-section h1 {
+  box-shadow: 20px 20px 5px 20px #212121;
+  border-radius: 10px;
   background: lime;
 }
 #contact-section p {
+  box-shadow: 20px 20px 0 20px #212121;
   background: lime;
   font-size: 30px;
   height: 230px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
 }
 #contact-section .links {
   background: lime;
   height: 230px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px 10px;
 }
 footer {
   padding: 5%;
