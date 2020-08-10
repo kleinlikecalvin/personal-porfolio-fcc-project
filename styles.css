@@ -75,7 +75,7 @@ h1 {
   font-size: 4rem;
 }
 /*Projects*/
-@media (min-width: 300px) {
+@media (min-width: 28.75em) {
   #projects-section {
     background: lime;
     padding-top: 10%;
@@ -139,12 +139,11 @@ button:hover {
   #contact-section {
     font-family: "VT323", monospace;
     padding-top: 5%;
+    margin: 5%;
   }
   #about-me {
-    position: relative;
     background: lime;
-    margin-left: 40%;
-    margin-bottom: 5%;
+    margin: 5%;
     border-radius: 10px;
     box-shadow: -30px 30px 0 3px #212121;
   }
@@ -155,9 +154,10 @@ button:hover {
     font-size: 3rem;
   }
   #my-links {
+    margin-right: auto;
+    margin: 5%;
     background: lime;
     border-radius: 10px;
-    margin-left: 10%;
     box-shadow: 30px 30px 0 3px #212121;
   }
   #my-links h1 {
