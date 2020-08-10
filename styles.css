@@ -79,16 +79,16 @@ h1 {
   font-size: 4rem;
 }
 /*Projects*/
-#projects-section {
+#projects {
   background: lime;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-#projects-section h1 {
+#projects h1 {
   font-size: 6rem;
   margin-bottom: 1%;
 }
-#projects-section hr {
+#projects hr {
   border-top: 2px solid #212121;
   margin-left: 15%;
   margin-right: 15%;
@@ -102,14 +102,13 @@ h1 {
   color: lime;
 }
 .project-tile a:hover {
-  color: orange;
+  color: #f6f6f6;
 }
 .project-tile img {
-  border-radius: 4px 4px 0 0;
   height: 100%;
   width: 100%;
   border: 2px solid #212121;
-  background: #f6f6f6;
+  border-radius: 4px 4px 0 0;
 }
 .project-tile label {
   font-family: "VT323", monospace;
@@ -117,6 +116,8 @@ h1 {
   width: 100%;
   border-radius: 0 0 10px 10px;
   font-size: 2rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 button {
