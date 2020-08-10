@@ -82,10 +82,13 @@ button:hover {
   font-size: 4rem;
 }
 /*Projects*/
-#projects-section {
-  background: lime;
-  padding-top: 10%;
+@media (min-width: 400px) {
+  #projects-section {
+    background: lime;
+    padding-top: 10%;
+  }
 }
+
 #projects-section h1 {
   font-size: 6rem;
   border-bottom: 2px solid #212121;
@@ -125,10 +128,13 @@ button:hover {
   margin-top: 5%;
 }
 /*Contact*/
-#contact-section {
-  font-family: "VT323", monospace;
-  padding-top: 5%;
+@media (min-width: 400px) {
+  #contact-section {
+    font-family: "VT323", monospace;
+    padding-top: 5%;
+  }
 }
+
 #about-me {
   background: lime;
   max-width: 800px;
