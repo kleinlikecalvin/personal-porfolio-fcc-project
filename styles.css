@@ -84,7 +84,6 @@ button:hover {
 /*Projects*/
 #projects-section {
   background: lime;
-  height: 100vh;
   padding-top: 10%;
 }
 #projects-section h1 {
