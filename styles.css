@@ -51,8 +51,9 @@ h1 {
   border-radius: 0;
   border: none;
 }
-.container {
+.container-fluid {
   padding: 0;
+  margin: 0 auto;
 }
 /*welcome*/
 #welcome-section {
