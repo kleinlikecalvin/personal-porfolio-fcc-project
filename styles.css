@@ -51,6 +51,9 @@ h1 {
   border-radius: 0;
   border: none;
 }
+.container {
+  padding: 0;
+}
 /*welcome*/
 #welcome-section {
   background: #212121;
