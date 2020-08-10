@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: #212121;
 }
+/*navbar*/
 #navbar {
   background: #f6f6f6 !important;
   font-family: "VT323", monospace !important;
@@ -35,6 +36,7 @@ button:hover {
   background: #212121;
   border-radius: 35% 0 35% 0;
 }
+/*welcome*/
 #welcome-section {
   background: #212121;
   background-size: cover;
@@ -57,6 +59,7 @@ button:hover {
 .welcome h2 {
   font-size: 40px;
 }
+/*Projects*/
 #projects-section {
   background: lime;
   height: 100vh;
@@ -100,6 +103,7 @@ button:hover {
 #projects-section button {
   margin-top: 5%;
 }
+/*Contact*/
 #contact-section {
   font-family: "VT323", monospace;
   padding-top: 5%;
@@ -127,6 +131,7 @@ button:hover {
 #my-links h1 {
   border-bottom: 2px solid #212121;
 }
+/*Footer*/
 footer {
   padding-top: 7%;
   padding-bottom: 5%;
