@@ -157,6 +157,8 @@ button:hover {
     font-size: 3rem;
   }
   #my-links {
+    position: relative;
+    margin-right: auto;
     margin-right: auto;
     margin: 5%;
     background: lime;
