@@ -82,7 +82,7 @@ button:hover {
   font-size: 4rem;
 }
 /*Projects*/
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   #projects-section {
     background: lime;
     padding-top: 10%;
@@ -121,6 +121,7 @@ button:hover {
 .project-tile label {
   font-family: "VT323", monospace;
   background: #212121;
+  width: 400px;
   margin-left: -2px;
   border: 2px solid #212121;
   border-radius: 0 0 10px 10px;
@@ -130,7 +131,7 @@ button:hover {
   margin-top: 5%;
 }
 /*Contact*/
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   #contact-section {
     font-family: "VT323", monospace;
     padding-top: 5%;
