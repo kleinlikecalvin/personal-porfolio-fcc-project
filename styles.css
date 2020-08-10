@@ -119,9 +119,8 @@ h1 {
 button {
   font-family: "VT323", monospace !important;
   font-size: 3rem;
-  margin: 10px;
+  margin: 3%;
   padding: 5px;
-  margin-bottom: 0;
   border: 5px solid #212121;
   color: #212121;
   background: lime;
@@ -135,6 +134,7 @@ button:hover {
 }
 #projects-section button {
   margin-top: 5%;
+  margin-bottom: 0;
 }
 .diagonal {
   position: absolute;
@@ -152,6 +152,7 @@ button:hover {
   font-family: "VT323", monospace;
   padding-top: 5%;
   margin: 10%;
+  margin-bottom: 0;
 }
 #about-me {
   background: lime;
@@ -168,7 +169,6 @@ button:hover {
 #my-links {
   position: relative;
   margin: 5%;
-  margin-bottom: 0;
   background: lime;
   border-radius: 10px;
   box-shadow: 30px 30px 0 3px #212121;
