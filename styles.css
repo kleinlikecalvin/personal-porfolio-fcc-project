@@ -29,7 +29,7 @@ body {
 #navbar {
   background: #f6f6f6 !important;
   font-family: "VT323", monospace !important;
-  font-size: 20px !important;
+  font-size: 2rem !important;
 }
 #glasses-icon {
   margin: 0 auto;
@@ -40,11 +40,11 @@ body {
 h1 {
   font-family: "Bungee Shade", cursive;
   padding: 10px;
-  font-size: 50px;
+  font-size: 5rem;
 }
 button {
   font-family: "VT323", monospace !important;
-  font-size: 30px;
+  font-size: 3rem;
   margin: 10px;
   padding: 5px;
   border: 5px solid #212121;
@@ -75,11 +75,11 @@ button:hover {
   color: lime;
 }
 .welcome h1 {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: "VT323", monospace;
 }
 .welcome h2 {
-  font-size: 40px;
+  font-size: 4rem;
 }
 /*Projects*/
 #projects-section {
@@ -88,7 +88,7 @@ button:hover {
   padding-top: 10%;
 }
 #projects-section h1 {
-  font-size: 60px;
+  font-size: 6rem;
   border-bottom: 2px solid #212121;
   margin-left: 10%;
   margin-right: 10%;
@@ -120,7 +120,7 @@ button:hover {
   margin-left: -2px;
   border: 2px solid #212121;
   border-radius: 0 0 10px 10px;
-  font-size: 20px;
+  font-size: 2rem;
 }
 #projects-section button {
   margin-top: 5%;
@@ -142,7 +142,7 @@ button:hover {
   border-bottom: 2px solid #212121;
 }
 #about-me p {
-  font-size: 30px;
+  font-size: 3rem;
 }
 #my-links {
   background: lime;
@@ -157,7 +157,7 @@ button:hover {
 footer {
   padding-top: 7%;
   padding-bottom: 5%;
-  font-size: 20px;
+  font-size: 2rem;
   background: transparent;
   font-family: "VT323", monospace !important;
 }
