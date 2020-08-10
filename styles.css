@@ -95,13 +95,16 @@ button:hover {
   margin-left: 10%;
   margin-right: 10%;
 }
-.project-tile {
-  margin: 10px;
-  height: 250px;
-  width: 400px;
-  border: 2px solid #212121;
-  border-radius: 4px;
+@media (max-width: 400px) {
+  .project-tile {
+    margin: 10px;
+    min-height: 150px;
+    min-width: 300px;
+    border: 2px solid #212121;
+    border-radius: 4px;
+  }
 }
+
 .project-tile a {
   text-decoration: none;
   color: lime;
@@ -118,7 +121,6 @@ button:hover {
 .project-tile label {
   font-family: "VT323", monospace;
   background: #212121;
-  width: 400px;
   margin-left: -2px;
   border: 2px solid #212121;
   border-radius: 0 0 10px 10px;
@@ -137,7 +139,6 @@ button:hover {
 
 #about-me {
   background: lime;
-  max-width: 800px;
   margin-left: 40%;
   margin-bottom: 5%;
   border-radius: 10px;
