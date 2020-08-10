@@ -81,9 +81,9 @@ h1 {
 /*Projects*/
 #projects-section {
   background: lime;
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-
 #projects-section h1 {
   font-size: 6rem;
   border-bottom: 2px solid #212121;
@@ -121,6 +121,7 @@ button {
   font-size: 3rem;
   margin: 10px;
   padding: 5px;
+  margin-bottom: 0;
   border: 5px solid #212121;
   color: #212121;
   background: lime;
@@ -135,6 +136,17 @@ button:hover {
 #projects-section button {
   margin-top: 5%;
 }
+.diagonal {
+  position: absolute;
+  background: lime;
+  transform: skewY(-11deg);
+  width: 100%;
+  padding: 20%;
+  margin-top: -30%;
+  margin-bottom: 10%;
+  z-index: -2;
+}
+
 /*Contact*/
 #contact-section {
   font-family: "VT323", monospace;
@@ -155,9 +167,8 @@ button:hover {
 }
 #my-links {
   position: relative;
-  margin-right: auto;
-  margin-right: auto;
   margin: 5%;
+  margin-bottom: 0;
   background: lime;
   border-radius: 10px;
   box-shadow: 30px 30px 0 3px #212121;
@@ -168,7 +179,7 @@ button:hover {
 
 /*Footer*/
 footer {
-  padding-top: 7%;
+  padding-top: 5%;
   padding-bottom: 5%;
   font-size: 2rem;
   background: transparent;
