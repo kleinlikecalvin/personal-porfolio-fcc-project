@@ -42,21 +42,14 @@ h1 {
   padding: 10px;
   font-size: 5rem;
 }
-button {
+.navbar-toggler {
   font-family: "VT323", monospace !important;
-  font-size: 3rem;
-  margin: 10px;
-  padding: 5px;
-  border: 5px solid #212121;
-  color: #212121;
-  background: lime;
-  border-radius: 35% 0 35% 0;
+  border: none;
 }
-button:hover {
-  color: lime;
-  border: 5px solid #212121;
-  background: #212121;
-  border-radius: 35% 0 35% 0;
+.navbar-toggler:hover {
+  background: transparent;
+  border-radius: 0;
+  border: none;
 }
 /*welcome*/
 #welcome-section {
@@ -122,17 +115,33 @@ button:hover {
     font-size: 2rem;
   }
 }
-
+button {
+  font-family: "VT323", monospace !important;
+  font-size: 3rem;
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid #212121;
+  color: #212121;
+  background: lime;
+  border-radius: 35% 0 35% 0;
+}
+button:hover {
+  color: lime;
+  border: 5px solid #212121;
+  background: #212121;
+  border-radius: 35% 0 35% 0;
+}
 #projects-section button {
   margin-top: 5%;
 }
 /*Contact*/
-@media (min-width: 300px) {
+@media (min-width: 28.75em) {
   #contact-section {
     font-family: "VT323", monospace;
     padding-top: 5%;
   }
   #about-me {
+    position: relative;
     background: lime;
     margin-left: 40%;
     margin-bottom: 5%;
