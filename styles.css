@@ -153,10 +153,10 @@ button:hover {
 }
 .diagonal {
   position: absolute;
-  background: lime;
+  background: black;
   transform: skewY(-11deg);
   width: 100%;
-  padding: 20%;
+  padding: 19.9%;
   margin-top: -30%;
   margin-bottom: 10%;
   z-index: -2;
