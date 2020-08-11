@@ -110,7 +110,7 @@ h1 {
   width: 100%;
   border: 2px solid #212121;
   border-radius: 10px 10px 0 0;
-  opacity: 20%;
+  opacity: 85%;
   filter: grayscale(90%);
 }
 .project-tile img:hover {
@@ -153,7 +153,7 @@ button:hover {
 }
 .diagonal {
   position: absolute;
-  background: black;
+  background: lime;
   transform: skewY(-11deg);
   width: 100%;
   padding: 19.9%;
