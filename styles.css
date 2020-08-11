@@ -174,7 +174,7 @@ button:hover {
   font-family: "VT323", monospace;
   padding-top: 5%;
   margin: 10%;
-  margin-bottom: 0;
+  margin-bottom: 1%;
 }
 #about-me {
   background: lime;
