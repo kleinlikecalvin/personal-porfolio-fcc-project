@@ -93,10 +93,16 @@ h1 {
   margin-left: 15%;
   margin-right: 15%;
 }
+#projects .equals {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
 .project-tile {
   margin: 5%;
-  height: 25rem;
-  width: 40rem;
+  height: 75%;
   border-radius: 10px;
   background: #212121;
 }
