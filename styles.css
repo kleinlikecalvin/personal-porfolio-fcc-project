@@ -95,7 +95,8 @@ h1 {
 }
 .project-tile {
   margin: 5%;
-  border-radius: 4px;
+  border-radius: 10px;
+  background: #212121;
 }
 .project-tile a {
   text-decoration: none;
@@ -108,7 +109,17 @@ h1 {
   height: 100%;
   width: 100%;
   border: 2px solid #212121;
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 10px 0 0;
+  opacity: 20%;
+  filter: grayscale(90%);
+}
+.project-tile img:hover {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #212121;
+  border-radius: 10px 10px 0 0;
+  opacity: 100%;
+  filter: grayscale(0);
 }
 .project-tile label {
   font-family: "VT323", monospace;
