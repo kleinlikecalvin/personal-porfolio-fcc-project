@@ -95,6 +95,8 @@ h1 {
 }
 .project-tile {
   margin: 5%;
+  height: 25rem;
+  width: 40rem;
   border-radius: 10px;
   background: #212121;
 }
