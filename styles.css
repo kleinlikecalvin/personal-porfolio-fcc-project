@@ -101,7 +101,7 @@ h1 {
   flex-wrap: wrap;
 }
 .project-tile {
-  margin: 5%;
+  margin: 1em;
   height: 200px;
   border-radius: 10px;
   background: #212121;
